@@ -29,4 +29,6 @@ imageList.insertAdjacentHTML(`afterbegin`, imageListItem);
 // // console.log(galleryItems);
 
 let gallery = new SimpleLightbox('.gallery a', {captionsData: 'alt',
-captionDelay: 250 });
+  captionDelay: 250
+});
+console.log(gallery);
