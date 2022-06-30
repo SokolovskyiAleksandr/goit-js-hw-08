@@ -32,12 +32,12 @@ function textareaInput(event) {
 // console.log(message);
 }
 function returnTextarea() {
+    
     let savedMessage = JSON.parse(localStorage.getItem(STORAGE_KEY));
     for (const key in savedMessage) {
-        if (key) {
-            formRef[key].value = savedMessage[key];
-            formData = savedMessage;
-            console.log(formData);
+    if (key) {
+        formRef[key].value = savedMessage[key];
+        formData = savedMessage;
         }
     }
 }
